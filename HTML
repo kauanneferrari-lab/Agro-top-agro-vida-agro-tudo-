@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro 4.0 - Sustentabilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agro<span>4.0</span></div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#dashboard">Monitoramento</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Tecnologia a Favor da Sustentabilidade</h1>
+            <p>O futuro do agronegócio depende do equilíbrio entre a alta produtividade e a preservação ambiental.</p>
+            <a href="#dashboard" class="btn">Ver Painel Interativo</a>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="features">
+        <h2>Pilares do Agro 4.0</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Drones e Sensores</h3>
+                <p>Mapeamento térmico e análise de solo em tempo real, aplicando insumos apenas onde é necessário e evitando desperdícios.</p>
+            </div>
+            <div class="card">
+                <h3>Inteligência Artificial</h3>
+                <p>Algoritmos que prevêem pragas, analisam previsões climáticas extremas e otimizam o uso da água na irrigação.</p>
+            </div>
+            <div class="card">
+                <h3>Bioinsumos</h3>
+                <p>Uso de defensores biológicos e regeneração do solo, diminuindo drasticamente a dependência de produtos químicos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="dashboard-section">
+        <h2>Simulador de Monitoramento de Campo</h2>
+        <p>Clique no botão para simular a leitura de sensores IoT em uma plantação sustentável.</p>
+        
+        <div class="panel">
+            <div class="stat">
+                <h4>Umidade do Solo</h4>
+                <p id="umidade">-- %</p>
+            </div>
+            <div class="stat">
+                <h4>Economia de Água</h4>
+                <p id="economia">-- Litros</p>
+            </div>
+            <div class="stat">
+                <h4>Status do Sistema</h4>
+                <p id="status" class="status-ok">Aguardando...</p>
+            </div>
+        </div>
+        
+        <button id="btnAtualizar" class="btn">Atualizar Sensores</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro 4.0 Sustentável. Tecnologia para um futuro viável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
